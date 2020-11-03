@@ -19,6 +19,11 @@
         <module>cloud-Zookeeper-payment8004</module>
         <module>cloud-consul-payment8005</module>
         <module>cloud-consumerconsul-order8080</module>
+        <module>cloud-consumer-feign-order8080</module>
+        <module>cloud-provider-hystrix-payment8001</module>
+        <module>cloud-consumer-feign-hystrix-order8080</module>
+        <module>cloud-geteway-gateway9527</module>
+        <module>cloud-config-center-3344</module>
 
     </modules>
 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.ccc.pojo.Student">
+        <!--数组类型属性注入-->
+        <property name="courses">
+            <!--<list>标签和<array>标签都支持数组-->
+            <array>
+                <value>java课程</value>
+                <value>数据库课程</value>
+                <value>计算机课程</value>
+            </array>
+        </property>
+        <!--list类型属性注入-->
+        <property name="list">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </list>
+        </property>
+        <!--map类型属性注入-->
+        <property name="maps">
+            <map>
+                <entry key="JAVA" value="java"/>
+                <entry key="PHP" value="php"/>
+                <entry key="C++" value="c++"/>
+            </map>
+        </property>
+        <!--set类型属性注入-->
+        <property name="sets">
+            <set>
+                <value>MySQL</value>
+                <value>Redis</value>
+                <value>Linux</value>
+            </set>
+        </property>
+
+            <!--注入list集合，值是对象 -->
+            <property name="courseList">
+                <list>
+                    <ref bean="course1"/>
+                    <ref bean="course2"/>
+                </list>
+            </property>
+    </bean>
+
+    <!--创建多个course对象-->
+    <bean id="course1" class="com.ccc.pojo.Course">
+        <property name="cname" value="Spring5框架"/>
+    </bean>
+
+    <bean id="course2" class="com.ccc.pojo.Course">
+        <property name="cname" value="Mybatis框架"/>
+    </bean>
+</beans>

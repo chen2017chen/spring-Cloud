@@ -1,0 +1,33 @@
+2020-09-23 23:08:18.545  INFO 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : Starting Boot05LoggingApplicationTests on DESKTOP-25319U0 with PID 38320 (started by WW in E:\javaTest\SpringBoot\boot-05-logging)
+2020-09-23 23:08:18.546 DEBUG 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-23 23:08:18.547  INFO 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : No active profile set, falling back to default profiles: default
+2020-09-23 23:08:20.063  INFO 38320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 23:08:20.427  INFO 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : Started Boot05LoggingApplicationTests in 2.232 seconds (JVM running for 3.413)
+2020-09-23 23:08:20.631 TRACE 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : 这是trace日志。。。
+2020-09-23 23:08:20.632 DEBUG 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : 这是debug日志。。。
+2020-09-23 23:08:20.632  INFO 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : 这是info日志。。。
+2020-09-23 23:08:20.632  WARN 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : 这warn日志。。。
+2020-09-23 23:08:20.632 ERROR 38320 --- [main] com.ccc.Boot05LoggingApplicationTests    : 这是error日志。。。
+2020-09-23 23:08:20.651  INFO 38320 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests=== -Starting Boot05LoggingApplicationTests on DESKTOP-25319U0 with PID 38760 (started by WW in E:\javaTest\SpringBoot\boot-05-logging)
+2020-09-23 ====[main]=== DEBUG=== com.ccc.Boot05LoggingApplicationTests=== -Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests=== -No active profile set, falling back to default profiles: default
+2020-09-23 ====[main]=== INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor=== -Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests=== -Started Boot05LoggingApplicationTests in 2.454 seconds (JVM running for 3.904)
+2020-09-23 ====[main]=== TRACE=== com.ccc.Boot05LoggingApplicationTests=== -这是trace日志。。。
+2020-09-23 ====[main]=== DEBUG=== com.ccc.Boot05LoggingApplicationTests=== -这是debug日志。。。
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests=== -这是info日志。。。
+2020-09-23 ====[main]=== WARN === com.ccc.Boot05LoggingApplicationTests=== -这warn日志。。。
+2020-09-23 ====[main]=== ERROR=== com.ccc.Boot05LoggingApplicationTests=== -这是error日志。。。
+2020-09-23 ====[SpringContextShutdownHook]=== INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor=== -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests===  -Starting Boot05LoggingApplicationTests on DESKTOP-25319U0 with PID 13268 (started by WW in E:\javaTest\SpringBoot\boot-05-logging)
+2020-09-23 ====[main]=== DEBUG=== com.ccc.Boot05LoggingApplicationTests===  -Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests===  -No active profile set, falling back to default profiles: default
+2020-09-23 ====[main]=== INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor===  -Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests===  -Started Boot05LoggingApplicationTests in 2.027 seconds (JVM running for 3.32)
+2020-09-23 ====[main]=== TRACE=== com.ccc.Boot05LoggingApplicationTests===  -这是trace日志。。。
+2020-09-23 ====[main]=== DEBUG=== com.ccc.Boot05LoggingApplicationTests===  -这是debug日志。。。
+2020-09-23 ====[main]=== INFO === com.ccc.Boot05LoggingApplicationTests===  -这是info日志。。。
+2020-09-23 ====[main]=== WARN === com.ccc.Boot05LoggingApplicationTests===  -这warn日志。。。
+2020-09-23 ====[main]=== ERROR=== com.ccc.Boot05LoggingApplicationTests===  -这是error日志。。。
+2020-09-23 ====[SpringContextShutdownHook]=== INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor===  -Shutting down ExecutorService 'applicationTaskExecutor'
